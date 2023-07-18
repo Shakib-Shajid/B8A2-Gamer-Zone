@@ -10,7 +10,7 @@ title {
 }
 
 nav {
-    padding: 30px 200px;
+    padding: 30px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,4 +72,49 @@ nav {
 .follow .fa-tiktok {
     margin-left: 8px;
     margin-right: 8px;
+}
+
+/* banner */
+
+.banner-section {
+    display: flex;
+    gap: 60px;
+    /* border: 3px solid red; */
+    /* height: 700px; */
+    width: 100%;
+}
+
+.banner-first-img {
+    background-image: url('images/Group\ 14.png');
+    /* border: 3px solid black; */
+    background-size: 100%;
+    width: 50%;
+}
+
+.banner-content {
+    padding: 150px 150px;
+}
+
+.banner-content h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    font-size: 5.93rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
+}
+
+.banner-content p {
+    margin-top: 1rem;
+}
+
+.banner-second-img img {
+    width: 80%;
+    height: 100%;
+    /* margin: 0 auto; */
 }
