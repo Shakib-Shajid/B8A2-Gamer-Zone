@@ -194,39 +194,14 @@ nav {
     margin-bottom: 10px;
 }
 
-.games-videos {
-    display: flex;
-    gap: 25px;
-    max-width: 100%;
-    justify-content: center;
-    padding: 150px;
-
-
-}
-
-.games-videos img {
-    width: 342px;
-    height: 400px;
-    margin-bottom: 20px;
-
-}
-
-.games-videos-desc {
-    margin-top: 0.94rem;
-    text-align: start;
-    width: 340px;
-    color: #534C64;
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 1.875rem;
-}
 
 /* Play anywhere
  */
 
- .play-content{
+.play-content {
     margin-top: 13rem;
- }
+    margin-bottom: 0;
+}
 
 .play-title {
     font-size: 3rem;
@@ -262,11 +237,45 @@ nav {
 
 .play-anywhere {
     display: flex;
-    padding: 150px;
+    margin: 0 150px;
     gap: 200px;
 }
 
-.play-anywhere img{
+.play-anywhere img {
     border-radius: 8px;
 }
+
+
+/* button class */
+
+.games-click{
+    padding: 120px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.btn-class {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: #FFF;
+}
+
+.btn-class:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+
+}
+
+.btn-class>p {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
 
