@@ -224,12 +224,17 @@ nav {
 /* Play anywhere
  */
 
+ .play-content{
+    margin-top: 13rem;
+ }
+
 .play-title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.75rem;
     color: #0B0223;
-    line-height: 60px;
+    line-height: 3.75rem;
+    text-align: right;
     /* 125% */
 }
 
@@ -244,7 +249,8 @@ nav {
     color: #534C64;
     font-size: 1.125rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.875rem;
+    text-align: right;
     /* 166.667% */
 }
 
@@ -256,9 +262,8 @@ nav {
 
 .play-anywhere {
     display: flex;
-    align-items: center;
     padding: 150px;
-    gap: 150px;
+    gap: 200px;
 }
 
 .play-anywhere img{
