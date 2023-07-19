@@ -152,6 +152,7 @@ nav {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .games-title-second {
@@ -168,10 +169,29 @@ nav {
     line-height: 1.87rem;
     margin-top: 0.8rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
-.online-games-video {
+/* .online-games-video {
     text-align: center;
+} */
+.games-cards-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.card {
+    /* border: 2px solid red; */
+    width: 18%;
+    margin-right: 20px;
+}
+
+.card>img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .games-videos {
@@ -230,10 +250,18 @@ nav {
 
 .play-img-second {
     position: relative;
-    top: 120px;
-    right: 182px;
+    bottom: 17.5rem;
+    right: 9rem;
 }
 
 .play-anywhere {
+    display: flex;
+    align-items: center;
     padding: 150px;
+    gap: 150px;
 }
+
+.play-anywhere img{
+    border-radius: 8px;
+}
+
