@@ -4,11 +4,6 @@
 }
 
 /* header */
-
-title {
-    color: red;
-}
-
 nav {
     padding: 30px 150px;
     display: flex;
@@ -339,4 +334,27 @@ footer li{
     font-weight: 500;
 }
 
-/* .................. */
+
+.hide{
+    display: none;
+}
+
+/* Responsive part */
+
+/* Header */
+
+@media screen and (max-width: 576px) {
+    nav, .right-nav{
+        flex-direction: column;
+        padding: 0;
+    }
+    nav{
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    .right-nav> li{
+        margin: 36px 0;
+    }
+
+}
