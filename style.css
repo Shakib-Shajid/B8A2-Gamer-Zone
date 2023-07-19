@@ -243,7 +243,7 @@ nav {
 
 /* button class */
 
-.games-click{
+.games-click {
     padding: 120px 150px;
     display: flex;
     flex-wrap: wrap;
@@ -275,37 +275,37 @@ nav {
 
 /* footer */
 
-footer{
+footer {
     background: #0B0223;
     color: white;
     padding: 100px 300px;
 }
 
-.footer-second{
+.footer-second {
     font-size: 2.81rem;
     font-weight: 700;
 }
 
-.footer-title{
+.footer-title {
     display: flex;
     justify-content: center;
     gap: 1.25rem;
 }
 
-.footer-ul{
+.footer-ul {
     margin-top: 4rem;
     display: flex;
     gap: 60px;
     justify-content: center;
 }
 
-footer li{
+footer li {
     list-style: none;
     text-align: center;
     font-weight: 600;
 }
 
-.footer-social > ul {
+.footer-social>ul {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -313,11 +313,11 @@ footer li{
 }
 
 
-.footer-social .fa-brands{
-    font-size: 25px ;
+.footer-social .fa-brands {
+    font-size: 25px;
 }
 
-.footer-privacy > ul{
+.footer-privacy>ul {
     display: flex;
     gap: 60px;
     margin-bottom: 1.125rem;
@@ -328,14 +328,14 @@ footer li{
 
 
 
-.footer-copyright{
+.footer-copyright {
     text-align: center;
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
 }
 
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -344,17 +344,67 @@ footer li{
 /* Header */
 
 @media screen and (max-width: 576px) {
-    nav, .right-nav{
+    /* header */
+
+    /* nav */
+    nav,
+    .right-nav {
         flex-direction: column;
         padding: 0;
     }
-    nav{
+
+    nav {
         margin-top: 100px;
         justify-content: center;
     }
 
-    .right-nav> li{
+    .right-nav>li {
         margin: 36px 0;
     }
+
+    /* .,....................................... */
+
+    .banner-section {
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-first-img {
+        width: 100%;
+    }
+
+    .banner-content {
+        padding: 0px;
+    }
+
+
+
+    /* banner */
+
+    /* games card */
+
+    .games-cards-part {
+        flex-direction: column;
+    }
+
+
+
+    .card {
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    .card>img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card>p {
+        text-align: center;
+    }
+
+    /* footer */
+
 
 }
