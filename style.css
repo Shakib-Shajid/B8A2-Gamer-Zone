@@ -375,6 +375,11 @@ footer li {
 
     .banner-content {
         padding: 0px;
+        text-align: center;
+    }
+
+    .banner-second-img img {
+        padding: 40px;
     }
 
 
@@ -385,13 +390,18 @@ footer li {
 
     .games-cards-part {
         flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+
     }
 
 
 
     .card {
         width: 90%;
-        margin-right: 20px;
+        flex-direction: column;
+        /* margin-right: 20px; */
+        margin: 50px 0;
     }
 
     .card>img {
@@ -404,7 +414,53 @@ footer li {
         text-align: center;
     }
 
+    /* instant play */
+
+    .play-anywhere {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+
+
+    /* button */
+    .games-click {
+        margin-top: 0px;
+        padding: 80px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+
+
+    }
+
+    .btn-class {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-radius: 50px;
+
+    }
+
+    .btn-class>p {
+        font-size: 10px;
+        font-weight: 400;
+        padding-left: 2px;
+    }
+
+    .btn-class>img {
+        width: 25%;
+    }
+
     /* footer */
 
-
+    .footer-privacy ul {
+        gap: 5px;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
 }
